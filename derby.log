@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Apr 17 19:08:38 EET 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-018e-ed08-28c4-00000175a3d0 
+on database directory memory:D:\Spring\airline_apis\airline_apis\3db30070-f8d7-4688-94d5-d3c2b6f1278c with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93 
+Loaded from file:/C:/Users/20115/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=19+36-2238
+user.dir=D:\Spring\airline_apis\airline_apis
+os.name=Windows 11
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
