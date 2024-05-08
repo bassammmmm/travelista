@@ -1,9 +1,9 @@
-FROM openjdk:19 as build
+FROM openjdk:19
 
-LABEL maintainer="bassamemad000@gmail.com"
+WORKDIR /app
 
-ARG JAR_FILE=target/*.jar
+COPY target/*.jar app.jar
 
-COPY ${JAR_FILE} app.jar
+EXPOSE 8000
 
-ENTRYPOINT ["java","-jar","/app.jar"]
+CMD ["java", "-jar", "app.jar"]
